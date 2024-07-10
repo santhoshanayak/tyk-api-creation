@@ -1,4 +1,4 @@
-# tyk-api-creation-prod
+# tyk-api-creation
 
 ## Getting started
 
