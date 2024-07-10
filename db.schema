@@ -1,0 +1,15 @@
+CREATE TABLE tykapi (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        clientname TEXT,
+        slug TEXT,
+        api_id TEXT,
+        org_id TEXT,
+        skey INTEGER,
+        ukey INTEGER,
+        listen_path TEXT,
+        httptype TEXT,
+        baseurl TEXT,
+	key TEXT,
+        Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+insert into tykapi (clientname,slug,api_id,org_id,skey,ukey,listen_path,httptype,baseurl,key) values ('test','test','0','0_0','0','0','/0','http','0.0.0','abc');

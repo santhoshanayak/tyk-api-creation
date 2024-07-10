@@ -1,0 +1,34 @@
+{
+  "name": "clientname",
+  "slug": "clientname-api",
+  "api_id": "clientname_id_1",
+  "org_id": "orgid",
+  "auth_configs": {
+    "authToken": {
+      "auth_header_name": "x-api-key"
+    }
+  },
+  "definition": {
+    "location": "header",
+    "key": "x-api-version"
+  },
+  "version_data": {
+    "not_versioned": true,
+    "versions": {
+      "Default": {
+        "name": "Default",
+        "use_extended_paths": true,
+        "global_headers": {
+          "X-Site-Key": "skey",
+          "X-Site-User": "ukey"
+        }
+    }
+   }
+  },
+  "proxy": {
+    "listen_path": "path",
+    "target_url": "httptype://baseurl/api",
+    "strip_listen_path": true
+  },
+  "active": true
+}

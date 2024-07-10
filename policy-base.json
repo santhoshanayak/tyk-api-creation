@@ -1,0 +1,21 @@
+{
+  "PID": {
+    "access_rights": {
+      "clientname_id_1": {
+        "allowed_urls": [],
+        "api_id": "clientname_id_1",
+        "api_name": "clientname",
+        "versions": [
+            "Default"
+        ]
+      }
+    },
+    "active": true,
+    "name": "clientname",
+    "rate": 100,
+    "per": 1,
+    "quota_max": 10000,
+    "quota_renewal_rate": 3600,
+    "tags": ["Startup Users"]
+  }
+}
